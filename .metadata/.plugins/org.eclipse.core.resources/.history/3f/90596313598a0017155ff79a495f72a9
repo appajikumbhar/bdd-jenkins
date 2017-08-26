@@ -9,16 +9,7 @@ import cucumber.api.junit.Cucumber;
 
 @CucumberOptions(
 		monochrome = true,
-		dryRun=false,
-		features = "commandLine",
-		glue={"commandLine"}
-		)
-/*
-@CucumberOptions(
-		features = "Feature2"
-		,glue={"stepDefinition2"}
-		,monochrome = true,
 		dryRun=false		
 		)
-*/
+
 public class runTest { }

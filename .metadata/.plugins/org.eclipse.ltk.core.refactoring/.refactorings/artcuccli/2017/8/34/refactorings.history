@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;artcuccli/src/test/java/outline/commandLine.feature&apos; to &apos;FeatureFille.feature&apos;" description="Rename resource &apos;commandLine.feature&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/java/outline/commandLine.feature" name="FeatureFille.feature" stamp="1503750179210" updateReferences="true"/>
+</session>

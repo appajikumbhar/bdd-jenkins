@@ -10,8 +10,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		monochrome = true,
 		dryRun=false,
-		features = "commandLine",
-		glue={"commandLine"}
+		features = "commandLine"
 		)
 /*
 @CucumberOptions(
