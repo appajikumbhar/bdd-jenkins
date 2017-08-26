@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="runTest" project="artcuccli" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="outline.runTest" time="11.079">
+    <testsuite name="Feature: Login Action" time="11.079">
+      <testsuite name="Scenario Outline: Login with parameters" time="11.079">
+        <testsuite name="Examples:" time="11.079">
+          <testsuite name="| mercury | mercury |" time="11.079">
+            <testcase name="Given User is on Home Page" classname="| mercury | mercury |" time="3.781"/>
+            <testcase name="When User enters &quot;mercury&quot; and &quot;mercury&quot;" classname="| mercury | mercury |" time="5.003"/>
+            <testcase name="Then User is able to Login Successfully" classname="| mercury | mercury |" time="2.088"/>
+            <testcase name="When User LogOut from the Application" classname="| mercury | mercury |" time="0.203"/>
+            <testcase name="Then Message displayed LogOut Successfully" classname="| mercury | mercury |" time="0.004"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
