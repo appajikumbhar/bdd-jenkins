@@ -27,7 +27,7 @@ public class commandLine extends Config{
 	@When("^User enters UserName and Password$")
 	public void user_enters_Username_and_Password() throws Throwable{
 		//wait.until(ExpectedConditions.elementToBeClickable(By.name("login")));
-		System.out.println("Entering user name and password!");	
+		System.out.println("Entering user name password!");	
 		driver.findElement(By.name("userName")).clear();
 		driver.findElement(By.name("userName")).sendKeys(username);
 		driver.findElement(By.name("password")).clear();
