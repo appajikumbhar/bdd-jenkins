@@ -112,3 +112,9 @@ java.lang.Exception: Unexpected TestElement type for testId '5': TestSuite: | me
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-26 16:45:09.483
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-26 16:52:20.403
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-26 16:52:20.407
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
