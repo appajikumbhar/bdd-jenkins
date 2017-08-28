@@ -1,3 +1,5 @@
 GitRepositoriesView.GitDirectories=
 GitRepositoriesView.GitDirectories.relative=
+RepositorySearchDialogDeepSearch=true
+RepositorySearchDialogSkipHidden=true
 eclipse.preferences.version=1
