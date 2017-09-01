@@ -18,6 +18,8 @@ public class commandLine extends Config{
    
    	@Given("^User is on Home Page$")
 	public void user_is_on_Home_Page() throws Throwable{
+   		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+   		
 		driver = new ChromeDriver();
 		driver.get("http://newtours.demoaut.com/");
 		//driver.manage().window().maximize();
@@ -25,6 +27,7 @@ public class commandLine extends Config{
 		//driver.get(baseURl);
 	}
 
+   	
 	@When("^User enters UserName and Password$")
 	public void user_enters_Username_and_Password() throws Throwable{
 		//wait.until(ExpectedConditions.elementToBeClickable(By.name("login")));
